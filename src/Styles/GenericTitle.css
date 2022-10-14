@@ -1,0 +1,23 @@
+.generic-title{
+   font-family: 'Source Serif Pro', serif;
+   font-size: 2.25rem;
+   font-weight: 700;
+}
+
+.generic-bar{
+   background-color: var(--standard-green);
+   height: 0.8rem;
+   min-width: 10%;
+}
+
+.generic-subtitle{
+   font-size: 1.5rem;
+   font-family: 'Source Serif Pro', serif;
+   font-weight: 700;
+}
+
+.generic-bar-subtitle{
+   background-color: var(--standard-green);
+   height: 0.6rem;
+   min-width: 20%;
+}
