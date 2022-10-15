@@ -34,3 +34,17 @@
 .link-icon-footer:hover{
    color: var(--standard-green);
 }
+
+@media only screen and (max-width: 780px){
+   #Footer{
+      grid-template-columns: 1fr;
+      gap: 2rem 0;
+   }
+   .icons-footer{
+      grid-row-start: 1;
+      justify-content: center;
+   }
+   .text-footer{
+      text-align: center;
+   }
+}
