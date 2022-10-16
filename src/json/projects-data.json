@@ -1,0 +1,9 @@
+[
+  {
+    "id": 1,
+    "title": "Landing-Page-Services",
+    "background_img": "landing-page.jpg",
+    "subtitle": "Web diseñada para que pequeñas y medianas empresas puedan ofrecer sus productos de forma fácil y eficiente a sus potenciales clientes",
+    "description": "El proyecto consiste en una SPA (Single Page Application) que permite a los clientes ofrecer productos y/o sercicios a sus usuarios. Contando con los siguientes elementos principales:" 
+  }
+]

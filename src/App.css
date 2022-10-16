@@ -23,6 +23,10 @@
   align-items: center;
 }
 
+.detailsCard{
+  padding-top: 20rem;
+}
+
 @media only screen and (max-width: 998px){
 
   #Navbar{
