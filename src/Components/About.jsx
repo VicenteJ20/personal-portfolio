@@ -9,8 +9,8 @@ export function About () {
   return (
     <>
       <section className='About content-section'>
-        <div className='div-content-about row container-fluid p-0'>
-          <div className='left-about-div col-12 col-lg-7'>
+        <div className='div-content-about'>
+          <div className='left-about-div'>
             <GenericTitle title='Sobre mí' divWidth='11%' />
             <div className='content-about'>
               <p className='text-content'>Soy Vicente Jorquera, estudiante de Ingeniería en Informática en INACAP y Desarrollador Web Autodidacta. Llevo alrededor de 2 años (Considerando hasta 2022) estudiando Ingeniería en Informática, donde he conseguido aprender sobre sistemas operativos Windows y GNU/Linux, tanto servers como workstations. Actualmente soy usuario de ambos sistemas operativos en sus versiones workstations. Además llevo 1 año aproximadamente estudiando desarrollo web por mi cuenta, donde he aprendido a trabajar con <span className='important-text'>NodeJS, Vanilla JS, React, HTML5, CSS3, MySQL, Python.</span> <br /><br />
@@ -18,7 +18,7 @@ export function About () {
               </p>
             </div>
           </div>
-          <div className='right-about-div col-12 col-lg-4'>
+          <div className='right-about-div'>
             <img src={imgAbout} alt='' className='imgAbout img-fluid' />
           </div>
         </div>

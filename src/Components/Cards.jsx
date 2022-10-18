@@ -29,7 +29,7 @@ export const CardProject = ({ title, description, imgUrl, to }) => {
     <div className='background-card' style={{ backgroundImage: `url('${img}')` }}>
       <h3 className='title-card'>{title}</h3>
       <p className='description-card'>{description}</p>
-      <p className='moreInfoLink'><NavLink to={to}>Más Información <FaArrowRight /></NavLink></p>
+      <p className='moreInfoLink'><NavLink to={`/Projects/Details/${to}`}>Más Información <FaArrowRight /></NavLink></p>
     </div>
   )
 }

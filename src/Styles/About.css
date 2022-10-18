@@ -1,6 +1,9 @@
 .div-content-about{
-   gap: 1rem;
-   justify-content: space-between;
+   display: flex;
+   flex-flow: row nowrap;
+   gap: 2rem;
+   justify-content: center;
+   align-items: center;
 }
 
 .left-about-div{
@@ -32,6 +35,8 @@
 .imgAbout{
    margin-top: 2rem;
    border-radius: 0.6rem;
+   max-width: 100%;
+   min-width: 18rem;
 }
 
 /* SKILLS DESIGN */
@@ -49,8 +54,7 @@
 
 .cards-div-skills{
    display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(3rem, 8rem));
-   align-items: center;
+   grid-template-columns: repeat(auto-fill, minmax(3rem, 8rem));
    padding: 1.5rem 0;
    gap: 1rem ;
 }
@@ -88,9 +92,27 @@
    .div-content-about{
       flex-direction: column-reverse;
       gap: 3rem 0;
+      padding: 1rem;
    }
 
    .right-about-div{
       justify-content: center;
+   }
+
+   .skills-divs{
+      grid-template-columns: 1fr;
+   }
+
+   .skills-divs{
+      max-width: 80vw;
+   }
+
+   .card-icon{
+      min-height: 3rem;
+   }
+
+   .cards-div-skills{
+      grid-template-columns: repeat(2, 1fr);
+      max-width: 100vw;
    }
 }

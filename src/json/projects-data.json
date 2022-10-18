@@ -1,9 +1,53 @@
 [
   {
-    "id": 1,
-    "title": "Landing-Page-Services",
-    "background_img": "landing-page.jpg",
-    "subtitle": "Web diseñada para que pequeñas y medianas empresas puedan ofrecer sus productos de forma fácil y eficiente a sus potenciales clientes",
-    "description": "El proyecto consiste en una SPA (Single Page Application) que permite a los clientes ofrecer productos y/o sercicios a sus usuarios. Contando con los siguientes elementos principales:" 
+    "id": "1",
+    "url": "Eddies-web-page",
+    "title": "Eddie's Web page",
+    "description": "Eddie's Web Page es una página web estática creada como desafío en devChallenges.io, consiste en una web que permite a empresas o vendedores ofrecer sus productos y/o servicios de forma fácil y simple a sus potenciales clientes",
+    "demo_link": "https://jvicente20-edies-webpage.netlify.app/",
+    "repo_link": "https://github.com/VicenteJ20/100daysofcode/tree/main/Day_7",
+    "home_img": "landing-page.jpg",
+    "gallery": "eddies1.png,eddies2.png,eddies3.png,eddies4.png",
+    "folder_img": "eddies-webpage"
+  },
+  {
+    "id": "2",
+    "url": "Encriptador-de-texto-Alura",
+    "description": "Esta aplicación web consiste en un encriptador de texto creado con HTML5, CSS3 y, JavaScript, de forma que permita reemplazar las vocales que se vayan insertando en palabras determinadas según cada letra y viceversa, además de la funcionalidad de permitir que se copie al portapapeles el texto que se ha encriptado o desencriptado, según sea el caso.",
+    "demo_link": "https://vicentej20.github.io/encriptador_Alura/",
+    "repo_link": "https://github.com/VicenteJ20/encriptador_Alura",
+    "home_img": "home-page.jpg",
+    "gallery": "encriptador1.png,encriptador2.png,encriptador3.png,encriptador4.png,encriptador5.png,encriptador6.png",
+    "folder_img": "encriptador-alura"
+  },
+  {
+    "id": "3",
+    "url": "Calculadora-basica-responsiva",
+    "description": "Esta aplicación web consiste en una aplicación web que hace funciones ariméticas básicas y está construida con ReactJS y Bootstrap, además cuenta distintos temas que nos permiten obtener una visión más agradable al momento de utilizar la aplicación.",
+    "demo_link": "https://jvicente20-calculator-app.netlify.app/",
+    "repo_link": "https://github.com/VicenteJ20/100daysofcode/tree/main/FontEnd_Mentor/calculator-app",
+    "home_img": "calculator-home.jpg",
+    "gallery": "calculadora3.png,calculadora1.png,calculadora2.png",
+    "folder_img": "calculadora-responsiva"
+  },
+  {
+    "id": "4",
+    "url": "Presentacion-de-activos",
+    "description": "Esta es una web diseñada con HTML5, CSS3 y ReactJS para mostrar activos y/o finanzas y balances de forma agradable e intutiva para que cualquier usuario pueda hacer uso del producto.",
+    "demo_link": "https://jvicente20-expenses-chart-component.netlify.app/",
+    "repo_link": "https://github.com/VicenteJ20/100daysofcode/tree/main/FontEnd_Mentor/expenses-chart-component",
+    "home_img": "expenses-home.jpg",
+    "gallery": "expenses1.png",
+    "folder_img": "presentacion-de-activos"
+  },
+  {
+    "id": "5",
+    "url": "Calculadora-de-propinas",
+    "description": "Este pequeña aplicación está escrita con JavaScript a través de ReactJS, la funcionalidad es simple, primero se ingresa un monto, seguidamente se define el porcentaje de propina y finalmente la cantidad de personas con las que debe dividirse el dinero.",
+    "demo_link": "https://jvicente20-tip-calculator-app.netlify.app/",
+    "repo_link": "https://github.com/VicenteJ20/100daysofcode/tree/main/FontEnd_Mentor/tip-calculator-app",
+    "home_img": "tips-home.jpg",
+    "gallery": "tips1.png,tips2.png,tips3.png",
+    "folder_img": "tip-calculator-app"
   }
 ]

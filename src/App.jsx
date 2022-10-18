@@ -14,7 +14,7 @@ function App () {
     const { name } = useParams()
 
     return (
-      ProjectsData.map(p => p.title === name ? <ProjectDetails title={name} imgName={p.background_img} subtitle={p.subtitle} description={p.description} /> : '')
+      ProjectsData.map(p => p.url === name ? <ProjectDetails key={p.id} title={name} imgName={p.home_img} description={p.description} demoUrl={p.demo_link} repoUrl={p.repo_link} gallery={p.gallery} folder={p.folder_img} /> : '')
     )
   }
 
