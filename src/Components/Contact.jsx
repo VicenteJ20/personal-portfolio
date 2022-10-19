@@ -3,7 +3,6 @@ import { GenericTitle } from './GenericTitle'
 import { useState } from 'react'
 import { addDoc, collection } from 'firebase/firestore'
 import { db } from '../firebase-config'
-import { NavLink } from './NavLinkP'
 
 export function Contact () {
   const [newName, setName] = useState('')
@@ -15,16 +14,15 @@ export function Contact () {
   const contactsCollectionRef = collection(db, 'contacts')
 
   const createContact = async (e) => {
+    e.preventDefault()
 
     try {
       await addDoc(contactsCollectionRef, { name: newName, email: newEmail, company: newCompany, service: newService, message: newMessage })
+      window.parent.location = window.parent.location.href
     } catch (error) {
       console.log(error.name)
     }
 
-    <NavLink to='/contact' />
-    setName(''), setEmail(''), setCompany(''), setService(''), setMessage('')
-    
   }
 
   return (
