@@ -2,7 +2,6 @@
   {
     "id": "1",
     "url": "Eddies-web-page",
-    "title": "Eddie's Web page",
     "description": "Eddie's Web Page es una página web estática creada como desafío en devChallenges.io, consiste en una web que permite a empresas o vendedores ofrecer sus productos y/o servicios de forma fácil y simple a sus potenciales clientes",
     "demo_link": "https://jvicente20-edies-webpage.netlify.app/",
     "repo_link": "https://github.com/VicenteJ20/100daysofcode/tree/main/Day_7",

@@ -3,6 +3,7 @@ import { GenericTitle } from './GenericTitle'
 import { useState } from 'react'
 import { addDoc, collection } from 'firebase/firestore'
 import { db } from '../firebase-config'
+import { NavLink } from './NavLinkP'
 
 export function Contact () {
   const [newName, setName] = useState('')
@@ -13,12 +14,17 @@ export function Contact () {
 
   const contactsCollectionRef = collection(db, 'contacts')
 
-  const createContact = async () => {
+  const createContact = async (e) => {
+
     try {
       await addDoc(contactsCollectionRef, { name: newName, email: newEmail, company: newCompany, service: newService, message: newMessage })
     } catch (error) {
       console.log(error.name)
     }
+
+    <NavLink to='/contact' />
+    setName(''), setEmail(''), setCompany(''), setService(''), setMessage('')
+    
   }
 
   return (
@@ -49,12 +55,12 @@ export function Contact () {
           </select>
         </div>
         <div className='form-div messagediv'>
-          <label className='label-form' htmlFor='text-area'>Mensaje de contacto</label>
+          <label className='label-form' htmlFor='text-area'>Mensaje de contacto<span className='span-label'>(Opcional)</span></label>
           <textarea id='text-area' name='text-area' className='textarea' placeholder='Ingrese sus comentarios y/o ideas aquí...' onChange={(e) => setMessage(e.target.value)} />
         </div>
         <div className='button-div'>
           <p className='info-btn'>* Al enviar este formulario acepta la recopilación y utilización de la información proporcionada a través del formulario anterior.</p>
-          <button className='btn submit-btn'>Enviar</button>
+          <button className='btn submit-btn' type='submit'>Enviar</button>
         </div>
       </form>
     </section>
