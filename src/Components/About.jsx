@@ -11,7 +11,7 @@ export function About () {
       <section className='About content-section'>
         <div className='div-content-about'>
           <div className='left-about-div'>
-            <GenericTitle title='Sobre mí' divWidth='11%' />
+            <GenericTitle title='Sobre mí' divWidth='20%' />
             <div className='content-about'>
               <p className='text-content'>Soy Vicente Jorquera, estudiante de Ingeniería en Informática en INACAP y Desarrollador Web Autodidacta. Llevo alrededor de 2 años (Considerando hasta 2022) estudiando Ingeniería en Informática, donde he conseguido aprender sobre sistemas operativos Windows y GNU/Linux, tanto servers como workstations. Actualmente soy usuario de ambos sistemas operativos en sus versiones workstations. Además llevo 1 año aproximadamente estudiando desarrollo web por mi cuenta, donde he aprendido a trabajar con <span className='important-text'>NodeJS, Vanilla JS, React, HTML5, CSS3, MySQL, Python.</span> <br /><br />
                 Mi enfoque es desarrollar aplicaciones accesibles, intuitivas y eficientes para que cualquier persona, sin importar su nivel de conocimientos informáticos pueda disfrutar de los beneficios de la tecnología y el internet.

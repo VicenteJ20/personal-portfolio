@@ -6,8 +6,8 @@
 
 .generic-bar{
    background-color: var(--standard-green);
-   height: 0.8rem;
-   min-width: 10%;
+   height: 0.5rem;
+   min-width: 2rem;
 }
 
 .generic-subtitle{

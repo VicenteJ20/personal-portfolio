@@ -7,6 +7,7 @@ import { Hobbies } from './Components/Hobbies'
 import { Navbar } from './Components/Navbar'
 import { Projects } from './Components/Projects'
 import { ProjectDetails } from './Components/ProjectsDetails'
+import { Contact } from './Components/Contact'
 import ProjectsData from './json/projects-data.json'
 
 function App () {
@@ -24,7 +25,7 @@ function App () {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/About' element={<About />} />
-        <Route path='/Contact' element={<Home />} />
+        <Route path='/Contact' element={<Contact />} />
         <Route path='/Hobbies' element={<Hobbies />} />
         <Route path='/Projects' element={<Projects />} />
         <Route path='/Projects/Details/:name' element={<Details />} />

@@ -11,6 +11,7 @@
    flex-direction: column;
    justify-content: center;
    gap: 2rem;
+   max-width: 60vw;
 }
 
 .text-content{
@@ -41,7 +42,7 @@
 
 /* SKILLS DESIGN */
 .Skills{
-   min-width: 100vh;
+   min-height: 100vh;
    padding: 1rem 0;
 }
 
@@ -95,20 +96,16 @@
       padding: 1rem;
    }
 
+   .left-about-div{
+      max-width: 100%;
+   }
+
    .right-about-div{
       justify-content: center;
    }
 
    .skills-divs{
-      grid-template-columns: 1fr;
-   }
-
-   .skills-divs{
-      max-width: 80vw;
-   }
-
-   .card-icon{
-      min-height: 3rem;
+      grid-template-columns: repeat(auto-fit, minmax(50vw, 1fr));
    }
 
    .cards-div-skills{

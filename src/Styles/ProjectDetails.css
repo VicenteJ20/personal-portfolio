@@ -132,6 +132,9 @@
     width: 90%;
     margin: 0 auto;
   }
+  .grid-gallery{
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  }
 }
 
 @media only screen and (max-width: 480px){

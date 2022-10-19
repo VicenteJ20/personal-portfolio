@@ -14,7 +14,7 @@ export const CardHobbies = ({ title, imgUrl, description, titleDesc }) => {
   const img = new URL(`../assets/${imgUrl}`, import.meta.url).href
 
   return (
-    <div className='card-hobbie p-0'>
+    <div className='card-hobbie'>
       <img className='img-hobbie' src={img} title={titleDesc} />
       <h3 className='title-hobbie'>{title}</h3>
       <p className='description-hobby'>{description}</p>

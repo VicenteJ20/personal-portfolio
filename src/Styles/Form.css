@@ -1,0 +1,105 @@
+.Form-section{
+  padding: 6rem 0 1rem 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.header-form{
+  margin: 2rem 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.namediv{
+  grid-area: name;
+}
+.emaildiv{
+  grid-area: email;
+}
+.companydiv{
+  grid-area: company;
+}
+.servicediv{
+  grid-area: service;
+}
+.messagediv{
+  grid-area: message;
+}
+.button-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  grid-area: send;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.form{
+  display: grid;
+  grid-template-areas: 'name email'
+                       'company service'
+                       'message message'
+                       'send send';
+  gap: 1rem;
+}
+
+.label-form{
+  font-weight: 600;
+  color: var(--dark-grey-text);
+}
+
+.form-div{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.textarea,
+.input-form{
+  all: unset;
+  padding: 0.7rem;
+  background-color: #fff;
+  border-radius: 0.6rem;
+  border: 1px solid rgb(175, 175, 175);
+}
+
+.optionform{
+  padding: 0.7rem;
+  background-color: #fff;
+  border: 1px solid rgb(175, 175, 175);
+  border-radius: 0.6rem;
+  font-size: 1rem;
+}
+
+.textarea{
+  min-height: 10rem;
+}
+
+.info-btn{
+  width: 80%;
+  color: rgb(175, 175, 175);
+}
+
+.submit-btn{
+  width: 50%;
+  padding: 0.6rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border: 2px solid var(--light-background-green);
+  border-radius: 0.5rem;
+  background-color: var(--standard-green);
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.selectedOption{
+  color: rgb(182, 182, 182);
+}

@@ -18,11 +18,11 @@ export const ProjectDetails = ({ ...p }) => {
           </div>
         </div>
         <div className='description_div'>
-          <GenericTitle title='Descripción' divWidth='8%' />
+          <GenericTitle title='Descripción' divWidth='30%' />
           <p className='description_project'>{p.description}</p>
         </div>
         <div className='gallery_div'>
-          <GenericTitle title='Galería' divWidth='8%' />
+          <GenericTitle title='Galería' divWidth='30%' />
           <div className='grid-gallery'>
             {
               p.gallery.split(',').map(x => <img className='gallery-img' src={getUrl(p.folder, x)} key={x} alt={x} title={x} />)
