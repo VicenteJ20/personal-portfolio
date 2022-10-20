@@ -29,6 +29,7 @@ function App () {
         <Route path='/Hobbies' element={<Hobbies />} />
         <Route path='/Projects' element={<Projects />} />
         <Route path='/Projects/Details/:name' element={<Details />} />
+        <Route path='/Contact/:name' element={<Contact />} />
         <Route path='*' element={<h1 className='404'>No se encontró la página</h1>} />
       </Routes>
       <Footer />

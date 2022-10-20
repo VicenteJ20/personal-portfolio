@@ -22,7 +22,6 @@ export function Contact () {
     } catch (error) {
       console.log(error.name)
     }
-
   }
 
   return (

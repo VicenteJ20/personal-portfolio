@@ -103,3 +103,20 @@
 .selectedOption{
   color: rgb(182, 182, 182);
 }
+
+@media only screen and (max-width: 650px){
+  .form{
+    grid-template-areas: 'name'
+                         'email'
+                         'company'
+                         'service'
+                         'message'
+                         'send';
+  }
+}
+
+@media only screen and (max-width: 550px){
+  .Form-section{
+    max-width: 95%;
+  }
+}

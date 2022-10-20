@@ -5,7 +5,7 @@ import '../Styles/Projects.css'
 export function Projects () {
   return (
     <section className='Recent-projects'>
-      <GenericTitle title='Proyectos Recientes' divWidth='30%' />
+      <GenericTitle title='Todos los proyectos' divWidth='25%' />
       <div className='projects-grid'>
         <CardProject title='Landing Page para venta de servicos' description='Web diseñada para que pequeñas y medianas empresas puedan ofrecer sus productos de forma fácil y eficiente a sus potenciales clientes.' imgUrl='office-team.jpg' to='Eddies-web-page' />
         <CardProject title='Encriptador de Texto - Oracle One + Alura.' description='Web básica responsiva que permite "encriptar texto". No utiliza ningún estándar de encriptación, se limita al uso de .replace' imgUrl='cryptography.jpg' to='Encriptador-de-texto-Alura' />

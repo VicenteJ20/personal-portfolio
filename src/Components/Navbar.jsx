@@ -1,6 +1,7 @@
 import '../Styles/Navbar.css'
 import { NavLink } from './NavLinkP'
 import { useState } from 'react'
+import profilePic from '../assets/profile-picture.jpg'
 
 export function Navbar () {
   const [active, setActive] = useState(false)
@@ -11,7 +12,10 @@ export function Navbar () {
 
   return (
     <header className='header-nav'>
-      <div className='brand-div'><NavLink to='/'>Vicente Jorquera</NavLink></div>
+      <div className='brand-div'>
+        <img className='profile-pic-nav' src={profilePic} />
+        <NavLink to='/'>Vicente Jorquera</NavLink>
+      </div>
       <button className='button-mobile' onClick={setupMenu}>
         <div />
         <div />

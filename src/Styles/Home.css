@@ -44,6 +44,34 @@
     font-size: 4rem;
 }
 
+.Recent-projects-home{
+    min-height: 80vh;
+}
+
+.header-projects-home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.more-info-projects{
+    font-size: 1.3rem;
+}
+
+.more-info-projects > a{
+    color: var(--dark-grey-text);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.more-info-projects > a > svg {
+    color: var(--light-green);
+}
+
+.more-info-projects a:hover{
+    color: var(--light-green);
+}
+
 @media only screen and (max-width: 880px){
     .Home{
         gap: 1rem 0;
@@ -75,10 +103,18 @@
     .ul-home > li > a{
         font-size: 3rem;
     }
+    .header-projects-home{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2rem;
+    }
 }
 
 @media only screen and (max-width: 390px){
+    .over-title{
+        font-size: 1.4rem;
+    }
     .title{
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
 }

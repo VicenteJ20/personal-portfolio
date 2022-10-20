@@ -4,5 +4,5 @@
 }
 
 .brand-div > a{
-  border-bottom: 0.4rem solid var(--light-background-green);
+  border-bottom: none;
 }
