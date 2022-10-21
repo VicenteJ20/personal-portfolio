@@ -8,6 +8,7 @@ import { Navbar } from './Components/Navbar'
 import { Projects } from './Components/Projects'
 import { ProjectDetails } from './Components/ProjectsDetails'
 import { Contact } from './Components/Contact'
+import { Submit } from './Components/Submit'
 import ProjectsData from './json/projects-data.json'
 
 function App () {
@@ -26,10 +27,10 @@ function App () {
         <Route path='/' element={<Home />} />
         <Route path='/About' element={<About />} />
         <Route path='/Contact' element={<Contact />} />
+        <Route path='/Contact/submitted' element={<Submit />} />
         <Route path='/Hobbies' element={<Hobbies />} />
         <Route path='/Projects' element={<Projects />} />
         <Route path='/Projects/Details/:name' element={<Details />} />
-        <Route path='/Contact/:name' element={<Contact />} />
         <Route path='*' element={<h1 className='404'>No se encontró la página</h1>} />
       </Routes>
       <Footer />

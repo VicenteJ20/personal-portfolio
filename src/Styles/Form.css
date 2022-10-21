@@ -32,6 +32,13 @@
 .messagediv{
   grid-area: message;
 }
+.recaptcha-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-area: recaptcha;
+}
 .button-div{
   display: flex;
   flex-direction: column;
@@ -46,6 +53,7 @@
   grid-template-areas: 'name email'
                        'company service'
                        'message message'
+                       'recaptcha recaptcha'
                        'send send';
   gap: 1rem;
 }
@@ -104,6 +112,24 @@
   color: rgb(182, 182, 182);
 }
 
+.message-captcha{
+  min-height: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.4rem;
+  padding: 1rem 0;
+  font-size: 1.2rem;
+}
+
+.message-captcha > p{
+  color: rgb(218, 0, 0);
+  font-weight: 600;
+}
+
+
+
 @media only screen and (max-width: 650px){
   .form{
     grid-template-areas: 'name'
@@ -111,6 +137,7 @@
                          'company'
                          'service'
                          'message'
+                         'recaptcha'
                          'send';
   }
 }
@@ -118,5 +145,9 @@
 @media only screen and (max-width: 550px){
   .Form-section{
     max-width: 95%;
+  }
+
+  .message-captcha{
+    text-align: center;
   }
 }
