@@ -34,7 +34,8 @@ export const FormFormik = () => {
           company: values.company,
           service: values.serviceType,
           comments: values.comments
-        }, window.location.assign('/Contact/submitted'))
+        })
+        window.location.assign('/Contact/submitted')
       } catch (error) {
         console.log(error.name)
       }

@@ -1,8 +1,8 @@
 .is-active{
-  border-bottom: 0.4rem solid var(--standard-green);
-  padding-bottom: 0.4rem;
+  border-bottom: 0.2rem solid var(--light-green);
+  padding: 0.2rem 0.5rem;
 }
 
 .brand-div > a{
-  border-bottom: none;
+  border: 0.2rem solid var(--light-background-green);
 }

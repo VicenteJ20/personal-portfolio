@@ -27,7 +27,7 @@ export function Navbar () {
           <li className='nav-item' onClick={setupMenu}><NavLink to='/Projects'>Proyectos</NavLink></li>
           <li className='nav-item' onClick={setupMenu}><NavLink to='/Hobbies'>Hobbies</NavLink></li>
           <li className='contact-button-li' onClick={setupMenu}>
-            <button className='contact-button'><NavLink to='/Contact'>Contacto</NavLink></button>
+            <NavLink to='/Contact'>Contacto</NavLink>
           </li>
         </ul>
       </nav>

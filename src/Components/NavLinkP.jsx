@@ -3,11 +3,13 @@ import '../Styles/NavlinkP.css'
 
 export const NavLink = ({ to, children, ...props }) => {
   return (
-    <NavLinkRouterDom
-      {...props}
-      className={({ isActive }) => isActive ? 'is-active' : undefined}
-      to={to}
-    >{children}
-    </NavLinkRouterDom>
+    <>
+      <NavLinkRouterDom
+        {...props}
+        className={({ isActive }) => isActive ? 'is-active' : undefined}
+        to={to}
+      >{children}
+      </NavLinkRouterDom>
+    </>
   )
 }
