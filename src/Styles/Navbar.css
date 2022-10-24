@@ -150,7 +150,7 @@
       font-size: 1.8rem;
    }
 
-   .contact-button{
-      font-size: 2rem;
+   .contact-button-li > a{
+      font-size: 1.8rem;
    }
 }

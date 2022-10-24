@@ -50,3 +50,9 @@
    color: #616161;
    line-height: 1.8;
 }
+
+@media only screen and (max-width: 450px){
+   .Hobbies{
+      padding: 6rem 0;
+   }
+}

@@ -1,15 +1,16 @@
 .Home{
     display: flex;
     flex-flow: row wrap;
+    align-content: center;
     justify-content: space-between;
-    align-items: center;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 .div-content-home{
     display: flex;
     flex-direction: column;
     gap: 1.5rem 0;
+    margin-bottom: 1.4rem;
     max-width: 90%;
 }
 
